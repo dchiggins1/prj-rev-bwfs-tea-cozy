@@ -1,0 +1,130 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+h2,
+h3,
+h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header Section */
+
+header {
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/*missionsection*/
+
+#mission{
+  height: 700px;
+  background-image: url("/Users/danielhiggins/tea cozy/resources/images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mission .content{
+  margin: auto;
+  background-color: black;
+  width: 100%
+}
+
+/*Store*/
+
+#store{
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.item{
+  padding: 10px;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+
+.item span{
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Locations*/
+
+#location{
+  background-image: url("/Users/danielhiggins/tea cozy/resources/images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#location .flex-container{
+  margin: auto;
+  width: 1200px;
+}
+
+.location{
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1;
+  background-color: black;
+}
+
+#contact{
+  height: 200px;
+}
+
+footer{
+  text-align: left;
+  padding-left: 20px;
+}
